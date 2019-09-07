@@ -69,6 +69,7 @@ crab resubmit --dir/-d <CRAB-project-directory>
 crab kill -d <CRAB-project-directory
 ```
 Online monitoring: http://dashb-cms-job.cern.ch/dashboard/templates/task-analysis/#user=Pedro+Fernandez+Manteca&refresh=0&table=Mains&p=1&records=25&activemenu=2&pattern=&task=&from=&till=&timerange=lastWeek
+
 New link: https://monit-grafana.cern.ch/d/cmsTMDetail/cms-task-monitoring-task-view?orgId=11&var-user=fernanpe&var-task=190716_125714%3Afernanpe_crab_EXO-RunIIFall17wmLHEGS-2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150_neg_step0
 
 Documentation here: https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookCRAB3Tutorial
