@@ -124,4 +124,5 @@ cmsDriver.py myNanoProcMc -s NANO --eventcontent NANOAODSIM --datatier NANOAODSI
 
 - Most important thing: add fakeNameForCrab =cms.untracked.bool(True), as configuraion of the outputmodule
 
+- For NanoAODv4: cmsDriver.py myNanoProcMc --eventcontent NANOAODSIM --datatier NANOAODSIM --processName 14Dec2018 --conditions 102X_mc2017_realistic_v6 -s NANO --era Run2_2017,run2_nanoAOD_94XMiniAODv2 --no_exec --customise_commands="process.add_(cms.Service('InitRootHandlers', EnableIMT = cms.untracked.bool(False)))"
 
